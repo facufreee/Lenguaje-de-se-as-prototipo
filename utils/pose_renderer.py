@@ -18,7 +18,7 @@ TEXT_C = (70, 80, 100)
 
 def _p(xn, yn):
     return (int(xn * W), int(yn * H))
-
+from utils.pose_renderer import render_pose, POSES as POSE_KEYPOINTS
 
 POSES = {
     "hola": [
