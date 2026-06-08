@@ -18,7 +18,7 @@ import time
 import re
 
 from utils.vocabulary import VOCAB, TEXT_ALIASES
-from utils.pose_renderer import render_pose, POSE_KEYPOINTS
+from utils.pose_renderer import render_pose, POSES as POSE_KEYPOINTS
 
 
 def _normalizar_texto(texto: str) -> list[str]:
